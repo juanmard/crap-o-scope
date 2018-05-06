@@ -1,0 +1,21 @@
+set_io --warn-no-port LED 95     # LED0
+set_io --warn-no-port clk 21     # CLK
+
+set_io --warn-no-port hsync 37   # GP0
+set_io --warn-no-port vsync 39   # GP2
+
+set_io --warn-no-port r1 38      # GP1
+set_io --warn-no-port r2 42      # GP4
+set_io --warn-no-port g1 41      # GP3
+set_io --warn-no-port g2 49      # GP6
+set_io --warn-no-port b1 43      # GP5
+set_io --warn-no-port b2 50      # GP7
+
+set_io --warn-no-port a 10       # SW1
+set_io --warn-no-port b 11       # SW2
+
+set_io --warn-no-port adc_cs 93      # ADC_SCL  
+set_io --warn-no-port adc_sd  90     # ADC_SDA
+set_io --warn-no-port adc_clk  91    # ADC_INT
+
+set_io --warn-no-port debug  99      # LED3

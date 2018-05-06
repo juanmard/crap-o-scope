@@ -1,5 +1,5 @@
 PROJ = 2bitvga
-PIN_DEF = icestick.pcf
+PIN_DEF = alhambra.pcf
 DEVICE = hx1k
 
 SRC = top.v vga.v test_pattern.v clockdiv.v image.v number.v numbers.v fontROM.v debounce.v encoder.v color_sq.v grid.v waveform.v adc.v

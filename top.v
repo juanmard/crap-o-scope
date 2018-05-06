@@ -91,7 +91,7 @@ module top (
     color_sq #( .x_off(100), .y_off(5), .w(512), .h(32), .color1(blue0), .color2(blue2))  color_sq_0 (.clk(vga_clk), .x_px(x_px), .y_px(y_px), .div(data_buf >> 3), .color_px(square0_color_px));
     color_sq #( .x_off(100), .y_off(5+32), .w(512), .h(32), .color1(red), .color2(yellow))  color_sq_1 (.clk(vga_clk), .x_px(x_px), .y_px(y_px), .div(trigger_val >> 3), .color_px(square1_color_px));
 
-    grid     #( .x_off(X_OFFSET), .y_off(70), .w(MAX_SAMPLES), .h(400), .space(20), .color(green1))  grid_0 (.clk(vga_clk), .x_px(x_px), .y_px(y_px), .color_px(grid_color_px));
+    grid     #( .x_off(X_OFFSET), .y_off(70), .w(MAX_SAMPLES), .h(400), .space(20), .color(green2))  grid_0 (.clk(vga_clk), .x_px(x_px), .y_px(y_px), .color_px(grid_color_px));
     waveform #( .x_off(X_OFFSET), .y_off(70), .w(MAX_SAMPLES), .h(400), .color(white),
         .addr_width(ADDR_WIDTH),
         .data_width(SAMPLE_WIDTH))
